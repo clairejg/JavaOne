@@ -1,0 +1,11 @@
+
+public class  { //class name is same as java file name
+//first step: we create project name "First"
+// then create class called anything you want
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

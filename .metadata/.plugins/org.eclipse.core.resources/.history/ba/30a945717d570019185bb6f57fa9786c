@@ -1,0 +1,56 @@
+///DigitalCamera
+//Claire Choo
+//04/05/2019
+
+public class DigitalCamera
+{
+	String brand;
+	int numMegapix;
+	double price;
+	
+	public DigitalCamera(String brand, int numMegapix)
+	{
+	String maker = brand;
+	int megapix = numMegapix;
+	double priceCam;
+	final double PRICEONE = 99.00;
+	final double PRICETWO = 129.00;
+	
+	if(megapix > 10)
+	  {
+		megapix = 10;
+	  }
+	if(megapix <= 6)
+	 {
+		priceCam = PRICEONE;
+	 }
+	else
+	{
+		priceCam = PRICETWO;
+	}
+	
+		total = price*quant;
+		System.out.printf("\n" + "Total: $" + "%,.2f", +total );
+	}
+	}
+	
+			Scanner inputDevice = new Scanner(System.in);
+	System.out.print("Enter price>> ");
+	price = inputDevice.nextInt();
+	System.out.print("Enter quantity>> ");
+	quant = inputDevice.nextInt();
+	System.out.printf("Price: $" + "%,.2f", + price );
+	System.out.printf("\n" + "Quantity: " + quant );
+	
+	
+	
+	
+	}
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

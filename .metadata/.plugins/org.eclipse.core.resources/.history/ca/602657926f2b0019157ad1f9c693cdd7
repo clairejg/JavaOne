@@ -1,0 +1,13 @@
+
+public class EX3_class {
+
+	public static void main(String[] args) {
+	System.out.println("Hello world");
+	//today is thursday
+	/*tomorrow is friday
+	 */
+	/**yesterday
+	 */
+	}
+
+}
